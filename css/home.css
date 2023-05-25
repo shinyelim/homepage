@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+li{
+  list-style: none;
+}
+
+a {
+  color: rgb(208, 87, 6);
+  text-decoration: none;
+}
+.visually-hidden{
+  display: none;
+}
+
+header{
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: rgb(255, 220, 172);
+ 
+}
+
+.logo img{
+  width: 100px;
+}
+.gnb-list{
+  display: flex;
+ 
+}
+.gnb-item a {
+padding: 20px;
+transition: color 500ms;
+}
+.gnb-item a:hover{
+  color: antiquewhite;
+}
+.background{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url(../imges/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(254, 189, 114);
+  text-align: center;
+
+}
+
+
+.main-title{
+  font-size: 50px;
+}
+
+.main-content{
+  margin-top: 20px;
+}
+
+.main-btn{
+  padding: 10px;
+  margin-top: 22px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: chocolate;
+}
+
+.post-card{
+  position: relative;
+  top: -50px;
+}
+
+.post-card > div{
+  opacity: 90%;
+  width: 90%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 30px auto 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(249, 203, 138);
+}
+.fixed-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.fixed-back-img{
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(255, 240, 209);
+  background-image: url(../imges/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: center bottom;
+  background-attachment: fixed;
+}
+ /*footer{
+  width: 100%;
+  
+  padding: 20xp 20px;
+  background-color: rgb(255, 217, 147);
+
+}
+
+.global-footer{
+display: flex;
+justify-content:space-between;
+width: 90%;
+margin: 0 auto;
+}
+
+.gobal-footer h3{
+  color: blue;
+}
+
+.icon-list{
+  display: flex;
+}
+
+.icon-item a {
+  padding-right: 20px;
+}
+
+.icon-item a i {
+  transition: all 0.5s;
+}*/
+footer {
+  padding: 20px 0;
+  background-color: rgb(255, 220, 172)
+}
+
+.global-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.global-footer h3 {
+  color: #fff;
+}
+
+.icon-list {
+  display: flex;
+}
+
+.icon-item a {
+  padding-right: 20px;
+}
+
+.icon-item a i {
+  transition: all 0.5s;
+}
+.icon-item a:hover i {
+  color: dodgerblue;
+  transform: scale(1.2);
+}
+
+.icon-item:last-child a {
+  padding-right: 0;
+}
+
+.icon-item i {
+  font-size: 24px;
+  color: aqua;
+}
+
